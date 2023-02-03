@@ -1,0 +1,41 @@
+@charset "UTF-8"; 
+body{
+    background-image: linear-gradient(to right, #7ABD44, #9BF056);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1{
+    color: #71ae3f;
+    text-align: center;
+}
+
+h2{
+    color: #71ae3f;
+    text-align: center;
+}
+
+a {
+    color: rgb(0, 0, 0);
+  }
+
+  a:hover {
+    color: #71ae3f;
+  }
+
+  main{
+    background-color: white; 
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.500);
+    width: 700px;
+    height:auto;
+    padding: 30px;
+    margin: auto;
+    text-align: justify;
+ }
+
+ .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+  }

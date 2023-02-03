@@ -1,0 +1,152 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Idroid';
+    src: url(pacote-projeto-d010/fontes/idroid.otf) format('opentype');
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #84e1ad;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+}
+
+header {
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    background-image: linear-gradient(#1e693f, #3bd27f);
+    margin-bottom: 10px;
+}
+
+nav {
+    font-weight: bold;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+nav > a.links {
+    color: white;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+a.links:hover {
+    color: white;
+    background-color: #185936;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+main {
+    background-color: white;
+    width: 800px;
+    height: auto;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px 1px rgb(0 0 0 / 50%);
+}
+
+h1#titulo {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+    color: #185936;
+    font-family: 'Idroid';
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Idroid';
+    color: #1e693f;
+    background-color: #84e1ac46;
+    padding: 5px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+p#slogan {
+    color: white;
+    text-align: center;
+}
+
+footer {
+    background-color: #185936;
+    color: white;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+footer > p {
+    margin: 0px;
+    text-align: center;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div#video {
+    width: 800px;
+    text-align: center;
+    background-color: #185936;
+    border-radius: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+div#lista {
+    background-color: #c5ebd6;
+    border-radius: 10px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+
+div#lista > p#aprender {
+    color: white;
+    font-weight: bold;
+    background-image: linear-gradient(#1e693f, #3bd27f);
+    margin-top: 0px;
+    padding: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    text-indent: 0%;
+}
+
+div#lista > p {
+    padding: 10px;
+    text-indent: 5%;
+}
+
+div {
+    display: inline-block;
+}
+
+a.lista {
+    color: black;
+}
+
+a.lista::before {
+    content: '✔️ ';
+}
+
+span {
+    color: #185936;
+    font-weight: bold;
+}
+
+p {
+    text-align: justify;
+    text-indent: 3%;
+}

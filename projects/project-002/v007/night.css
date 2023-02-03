@@ -1,0 +1,71 @@
+@charset "UTF-8"; 
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body{
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to right, #7ABD44, #9BF056);
+}
+
+h1{
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    color: #71ae3f;
+    text-align: center;
+}
+
+h2{
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    color: #71ae3f;
+    text-align: center;
+}
+
+.subtitulo{
+    background-color: #71ae3f;
+    color: white;
+    border-radius: 20px;
+    padding: 5px;
+  }
+
+.citacao{
+    text-align: center;
+  }
+
+p{
+    color: white;
+}
+
+ol{
+    color: #ffffff;
+}
+
+a {
+    color: rgb(255, 255, 255);
+  }
+
+  a:hover {
+    color: #71ae3f;
+  }
+
+  main{
+    background-color: #242424;
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.500);
+    width: 700px;
+    height:auto;
+    padding: 30px;
+    margin: auto;
+    text-align: justify;
+ }
+
+ .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+  }
+
+  div {
+    text-align: center;
+  }

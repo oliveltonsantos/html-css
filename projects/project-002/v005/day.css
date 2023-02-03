@@ -1,0 +1,20 @@
+@charset "UTF-8"; 
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1{
+    color: #71ae3f;
+}
+
+h2{
+    color: #71ae3f;
+}
+
+a {
+    color: rgb(0, 0, 0);
+  }
+
+  a:hover {
+    color: #71ae3f;
+  }
