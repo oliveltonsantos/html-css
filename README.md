@@ -10,15 +10,12 @@ As aulas são dadas pelo Gustavo Guanabara.
 
 ## Informações extras sobre o curso:
 
-- <a href="https://www.cursoemvideo.com/" target="_blank"  rel="external">Site do Curso em Vídeo</a> 
+- [Site do Curso em Vídeo](https://www.cursoemvideo.com/)
 
-- <a href="https://www.youtube.com/@CursoemVideo" target="_blank"  rel="external">Canal do YouTube</a> 
+- [Canal do YouTube](https://www.youtube.com/@CursoemVideo)
 
-- <a href="https://www.instagram.com/cursoemvideo/" target="_blank"  rel="external">Instagram</a> 
+- [Instagram](https://www.instagram.com/cursoemvideo/)
 
-- <a href="https://www.facebook.com/CursosEmVideo/" target="_blank"  rel="external">Facebook</a> 
+- [Facebook](https://www.facebook.com/CursosEmVideo/)
 
-- <a href="https://twitter.com/guanabara" target="_blank"  rel="external">Twitter</a> 
-
-
-[link](https://www.cursoemvideo.com/){:target="_blank"}
+- [Twitter](https://twitter.com/guanabara)
