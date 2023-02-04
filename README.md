@@ -19,3 +19,6 @@ As aulas são dadas pelo Gustavo Guanabara.
 - <a href="https://www.facebook.com/CursosEmVideo/" target="_blank"  rel="external">Facebook</a> 
 
 - <a href="https://twitter.com/guanabara" target="_blank"  rel="external">Twitter</a> 
+
+
+[link](https://www.cursoemvideo.com/){:target="_blank"}
