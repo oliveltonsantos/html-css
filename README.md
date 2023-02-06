@@ -6,7 +6,7 @@ Este repositório tem exercícios, desafios e projetos desenvolvidos no curso de
 
 ## Quem é o professor?
 
-As aulas são dadas pelo Gustavo Guanabara.
+As aulas são dadas pelo [Gustavo Guanabara](https://www.instagram.com/gustavoguanabara).
 
 ## Informações extras sobre o curso:
 
