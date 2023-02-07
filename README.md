@@ -1,7 +1,5 @@
 <h1 align="center"> <🖖 Hello!> </h1>
-
-<center>Item centralizado</center>
-
+  
 ## ❓ O que é este repositório?
 
 Este repositório tem exercícios, desafios e projetos desenvolvidos no curso de HTML5 e CSS3 do Curso em Vídeo.
