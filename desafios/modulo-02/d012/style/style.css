@@ -4,14 +4,14 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 
 /*pseudo-classe*/
 
 :root {
     --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
-    --fonte-titulo: "Passion+One";
-    --fonte-texto:  'Sriracha';
+    --fonte-titulo: "Pacifico";
+    --fonte-texto:  'Pacifico';
 }
 
 /*Configurações globais*/
@@ -49,12 +49,13 @@ body {
 .conteudo > h1 {
     font-family: var(--fonte-titulo);
     font-size: 5em;
-    color: white;
+    color: #eea703;
 }
 
 .conteudo > p {
     font-family: var(--fonte-padrao);
     font-size: 1em;
+    color: white;
 }
 
 /* Configurações das estrofes */
@@ -65,7 +66,7 @@ p {
 }
 
 .estrofe1 {
-    margin: 100px 0px 100px 10px;
+    margin: 100px 0px 100px 30px;
 }
 
 .estrofe2 {
@@ -75,7 +76,7 @@ p {
     background-color: white;
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed;
+    background-attachment: fixed;    
 }
 
 .texto2 {
@@ -84,9 +85,79 @@ p {
     top: 50%;
     transform: translate(-50%, -50%);
     color: white;
-    background-color: rgba(0, 0, 0, 0.500);
+    background-color: rgba(0, 0, 0, 0.600);
+    width: 600px;
+    padding: 20px;
+    border-radius: 10px;
+    color: #eea703;
+}
+
+.estrofe3 {
+    margin: 100px 0px 100px 30px;
+}
+
+.estrofe4 {
+    margin: 100px 0px 100px 30px;
+}
+
+.estrofe5 {
+    position: relative;
+    height: 1175px;
+    background-image: url(../imagens/background002.jpg);
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.texto5 {
+    position: absolute;
+    left: 20%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    background-color: rgba(0, 0, 0, 0.600);
     width: 600px;
     height: auto;
     padding: 20px;
     border-radius: 10px;
+    color: #eea703;
 }
+
+.estrofe6 {
+    margin: 100px 0px 100px 30px;
+}
+
+.estrofe7 {
+    margin: 100px 0px 100px 30px;
+}
+
+/* Footer (rodapé) */
+
+footer {
+    color: white;
+    background-color: black;
+    padding: 10px;
+    text-align: center;
+}
+
+footer > p {
+    font-family: var(--fonte-padrao);
+    font-size: 1em;
+}
+
+/* Links */
+
+a {
+    color: white;
+    font-weight: bold;
+    font-family: var(--fonte-padrao);
+    font-size: 1em;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #eea703;
+    text-decoration: underline;
+}
+
