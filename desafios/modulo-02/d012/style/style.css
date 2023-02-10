@@ -10,7 +10,7 @@
 
 :root {
     --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
-    --fonte-titulo: 'Passion+One';
+    --fonte-titulo: "Passion+One";
     --fonte-texto:  'Sriracha';
 }
 
@@ -30,14 +30,63 @@ body {
 
 /* Header (cabeçalho) */
 
-header {
-    color: white;
+#container {
     background-color: black;
     min-height: 330px;
-    font-family: var(--fonte-padrao);
-    text-align: center;
-}
-header > h1 {
-    font-family: var(--fonte-titulo);
+    position: relative;
+    padding: 10px;
 }
 
+.conteudo {
+    position: absolute;
+    width: 600px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.conteudo > h1 {
+    font-family: var(--fonte-titulo);
+    font-size: 5em;
+    color: white;
+}
+
+.conteudo > p {
+    font-family: var(--fonte-padrao);
+    font-size: 1em;
+}
+
+/* Configurações das estrofes */
+
+p {
+    font-family: var(--fonte-texto);
+    font-size: 2em;
+}
+
+.estrofe1 {
+    margin: 100px 0px 100px 10px;
+}
+
+.estrofe2 {
+    position: relative;
+    height: 1280px;
+    background-image: url(../imagens/background001.jpg);
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.texto2 {
+    position: absolute;
+    left: 20%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    background-color: rgba(0, 0, 0, 0.500);
+    width: 600px;
+    height: auto;
+    padding: 20px;
+    border-radius: 10px;
+}
