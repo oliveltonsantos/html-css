@@ -1,5 +1,12 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+:root {
+    --fonte1: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte2: 'Pacifico', 'cursive';
+}
+
 * {
     margin: 0px;
     padding: 0px;
@@ -8,17 +15,20 @@
 html, body {
     min-width: 100vh; /* tamanho mínimo da view height */
     background-color: darkgray;
+    font-family: var(--fonte1);
 }
 
 header {
     background-color: black;
     color: white;
     text-align: center;
+    font-family: var(--fonte2);
 }
 
 header > h1 {
     padding-top: 50px;
     font-variant: small-caps;
+    font-size: 10vw; /* Use "vw - viewport" para quando você quiser ir diminuindo a letra do site baseado na largura da tela Lembrando que essa não é a melhor maneira. */
 }
 
 header > p {
@@ -40,6 +50,8 @@ section {
     padding-bottom: 10vh;
     line-height: 2em;
     padding-left: 30px;
+    font-family: var(--fonte2);
+    font-size: 3.5vw;
 }
 
 section.normal {
@@ -53,9 +65,11 @@ section.imagem {
 }
 
 section.imagem > p {
-    width: 400px;
+    display: inline-block; /* transforma naquela caixa que se adapta ao tamanho do conteúdo. */
+    padding: 5px;
     background-color: rgba(0, 0, 0, 0.5);
 }
+
 footer {
     background-color: black;
     color: white;
