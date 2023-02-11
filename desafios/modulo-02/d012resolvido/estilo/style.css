@@ -64,22 +64,29 @@ section.normal {
 }
 
 section.imagem {
-    background-color: rgba(0, 0, 0, 0.062);
+    background-color: black;
     color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.5);
+    background-attachment: fixed;
+
 }
 
 section.imagem > p {
     display: inline-block; /* transforma naquela caixa que se adapta ao tamanho do conteúdo. */
     padding: 5px;
     background-color: rgba(0, 0, 0, 0.5);
+    text-shadow: 1px 1px 0px black;
 }
 
-.section#img01 {
+section#img01 {
     background-image: url(../imagens/background001.jpg);
+    background-position: right center;
+    background-size: cover;
 }
 
-.section#img02 {
+section#img02 {
     background-image: url(../imagens/background002.jpg);
+    background-size: cover;
 }
 
 footer {
