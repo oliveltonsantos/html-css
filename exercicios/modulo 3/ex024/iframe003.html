@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso de iframes</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        iframe#tela {
+            width: 95vh;
+            height: 400px;
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Faça uma escolha</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex incidunt et inventore atque pariatur, impedit reprehenderit omnis veniam, sequi ullam eos labore dolorum, error natus cumque odio architecto explicabo libero.</p>
+
+    <ul>
+        <li><a href="paginasextras/pagina001.html" target="frame">Primeira página</a></li>
+        <li><a href="paginasextras/pagina002.html" target="frame">Segunda página</a></li>
+        <li><a href="paginasextras/pagina003.html" target="frame">Terceira página</a></li>
+    </ul>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex incidunt et inventore atque pariatur, impedit reprehenderit omnis veniam, sequi ullam eos labore dolorum, error natus cumque odio architecto explicabo libero.</p>
+
+    <iframe id="tela" name="frame" srcdoc="<h1>Escolha uma das opções acima.</h1><p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi culpa aperiam maiores exercitationem fugiat blanditiis, consequuntur ipsam nulla repellendus quo. Veritatis doloremque iusto culpa excepturi molestiae distinctio odio rem qui?</p><img src='imagens/astronauta.png'>">
+        <p>Infelizmente seu navegador não é compatível com isso.</p>
+    </iframe>
+
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non sint inventore et sit. Maxime non illum, ducimus aliquid, est officiis velit sint maiores nostrum, cum nihil amet ipsam tenetur et?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, ad natus delectus cupiditate ipsum velit harum, facilis veniam, hic ipsa officiis eos id! Suscipit voluptas nisi adipisci. Autem, ut optio!</p>
+</body>
+</html>
