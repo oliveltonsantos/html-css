@@ -15,6 +15,7 @@ Grandes telas: acima de 1200px
 */
 
 @media screen and (max-width: 600px) {
+    
     body, html {
         background-color: #5f2c82;
     }
@@ -24,6 +25,18 @@ Grandes telas: acima de 1200px
         margin: auto;
         background-color: white;
         border-radius: 10px;
+    }
+
+    .form {
         padding: 10px;
+    }
+
+    .imagemdefundo {
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        display: block;
+        background: url("../imagens/fundo.jpg") left bottom / cover no-repeat rgb(95, 44, 130);
+        height: 200px;
+        outline: rgb(66, 153, 225) solid 1px;
     }
 }
