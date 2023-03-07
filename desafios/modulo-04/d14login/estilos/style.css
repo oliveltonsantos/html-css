@@ -1,0 +1,63 @@
+@charset "UTF-8";
+
+:root {
+    --roxo: #5f2c82;
+    --azul-claro: #94cfcd;
+    --azul-medio: #53aaa7;
+    --azul-escuro: #53aaa7;
+    --verde-escuro: #2d6462;
+    --branco: white; 
+}
+
+body, html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    position: relative;
+    height: 100vh;
+}
+
+.login {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#iemail {
+    background-color: var(--roxo);
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#isenha {
+    background-color: var(--roxo);
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.entrar {
+    background-color: var(--azul-medio);
+    color: var(--branco);
+    padding: 5px;
+    border-radius: 5px;
+    border: 0px;
+}
+
+.entrar:hover {
+    background-color: var(--verde-escuro);
+}
+
+.esqueci {
+    background-color: var(--branco);
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid var(--azul-escuro);
+    color: var(--azul-escuro);
+}
+
+.esqueci:hover {
+    background-color: var(--azul-claro);
+    color: var(--verde-escuro);
+}
