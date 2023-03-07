@@ -9,20 +9,8 @@
     --branco: white; 
 }
 
-body, html {
+body {
     font-family: Arial, Helvetica, sans-serif;
-}
-
-.container {
-    position: relative;
-    height: 100vh;
-}
-
-.login {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
 }
 
 #iemail {
