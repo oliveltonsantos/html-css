@@ -96,6 +96,7 @@ div.campo > input {
     border: 0px;
     border-radius: 8px;
     padding: 4px;
+    outline: none; /* tira a borda preta colocada pelo navegador */
     transform: translateY(-12px); /* sempre que tiver uma animação ou transformação para fazer faça por último no seletor */
 }
 
