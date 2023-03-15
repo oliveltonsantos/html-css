@@ -110,3 +110,68 @@ nth-child(n + 4) significa que a partir do 4 item todos terão a configuração 
         order: -1;
     }
 }
+
+/* CSS GRID 2 */
+
+.grid2 {
+   display: grid; 
+   grid-template-columns: 1fr 200px;
+   grid-gap: 20px;
+   max-width: 800px;
+   padding: 10px;
+   margin: auto;
+}
+
+.sidebar > div {
+    margin-bottom: 10px;
+}
+
+@media (max-width: 600px) {
+    .grid2 {
+        grid-template-columns: 1fr;
+    }
+
+    .sidebar {
+        display: flex;
+        overflow: scroll;
+    }
+
+    .sidebar > div {
+        flex: 1 0 200px; /*span > shrink > container*/
+        margin: 0 10px;
+    }
+}
+
+/* CSS GRID 3*/
+
+.grid3 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    margin: auto;
+    padding: 10px;
+    max-width: 800px;
+}
+
+.grid3-item:nth-child(1) {
+    grid-row: 1 / 3;
+}
+
+.grid3-item {
+    display: grid;  
+}
+
+.grid3-item img {
+    grid-column: 1;
+    grid-row: 1 / 3;
+    align-self: end;
+}
+
+.grid3-item p {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    color: white;
+    grid-column: 1;
+    grid-row: 2;
+    align-self: end;
+}
