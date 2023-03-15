@@ -11,14 +11,24 @@ body {
 }
 
 .container {
-    border: 5px cyan solid;
-    margin: 10px;
     display: grid;
-    grid-template-columns: repeat(3, minmax(100px, 1fr));
-    grid-template-rows: auto;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(4, 100px);
+    justify-content: center;
+    align-items: start;
+    align-content: center;
+    justify-items: end;
     gap: 10px;
+    height: 100vh;
+    width: 100vw;
+    background: yellow;
 }
 
 .item {
     background: deeppink;
+}
+
+.item-8 {
+    align-self: end;
+    justify-self: center;
 }
