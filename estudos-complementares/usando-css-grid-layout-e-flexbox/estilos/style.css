@@ -1,0 +1,82 @@
+@charset "UTF-8";
+
+body, ul, li, p {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    font-size: 1.2;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 100px;
+}
+
+/*imagem responsiva no tamanho máximo do container*/
+
+img {
+  max-width: 100%; 
+  display: block; 
+}
+
+.header {
+    background: #1d1e20;
+    display: flex;
+    flex-wrap: wrap; /* quando a tela for pequena demais e os elementos ficarem perto do outro aí eles descem para baixo*/
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu li {
+    margin-left: 10px;
+}
+
+.menu li a {
+    display: block;
+    padding: 10px;
+}
+
+/* CSS FLEXBOX */
+
+.flex {
+    display: flex;
+    flex-wrap: wrap; /*indica que o flex pode quebrar a linha*/
+    max-width: 800px; /*o ideal é que a largura seja a mesma que você irá usar nas outras seções*/
+    margin: 0 auto;
+}
+
+.flex > div {
+    flex: 1 1 200px; /*span > shrink > container*/
+    margin: 10px;
+}
+
+/* CSS GRID 1 */
+
+.grid1 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 700px;
+    margin: auto;
+    grid-gap: 20px;
+}
+
+/* nth-child() permite selecionar os elementos filhos dentro do container
+
+nth-child(n + 4) significa que a partir do 4 item todos terão a configuração definida.
+
+*/
+
+.grid1 > div:nth-child(n + 4) {
+    display: grid;
+}
