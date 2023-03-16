@@ -7,6 +7,10 @@
 15:59 - flex-direction: column;
 18:39 - gap
 20:19 - align-items
+25:54 - flex-wrap 
+28:00 - flex-flow
+28:55 -  align-content
+31:38 - order
 
 */
 
@@ -32,4 +36,8 @@
 
 .flex-item {
     background: pink;
+}
+
+.flex-item:nth-child(1) {
+    order: 2;
 }
