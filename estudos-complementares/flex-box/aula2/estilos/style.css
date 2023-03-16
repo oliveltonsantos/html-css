@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+/* Aula: https://youtu.be/3C7v3S-tnFw */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.flex-container {
+    background: yellow;
+    display: flex;
+    flex-direction: row; /*eixo principal*/
+    justify-content: flex-start; /* só mexe no eixo principal*/
+    align-items: flex-end; /*só mexe no eixo transversal*/
+    gap: 30px;
+    height: 50vh;
+}
+
+.flex-item {
+    background: pink;
+}
