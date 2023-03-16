@@ -1,6 +1,14 @@
 @charset "UTF-8";
 
-/* Aula: https://youtu.be/3C7v3S-tnFw */
+/* Aula: https://youtu.be/3C7v3S-tnFw 
+
+10:29 - justify-content
+14:50 - flex-direction: row-reverse;
+15:59 - flex-direction: column;
+18:39 - gap
+20:19 - align-items
+
+*/
 
 * {
     margin: 0;
@@ -13,9 +21,13 @@
     display: flex;
     flex-direction: row; /*eixo principal*/
     justify-content: flex-start; /* só mexe no eixo principal*/
-    align-items: flex-end; /*só mexe no eixo transversal*/
+    align-items: center; /*só mexe no eixo transversal*/
+    flex-wrap: wrap;
+    align-content: flex-start;
+    /* flex-flow: row wrap; ou flex-flow: column no-wrap;
+( é a combinação de flex-direction e flex-wrap) */
     gap: 30px;
-    height: 50vh;
+    height: 80vh;
 }
 
 .flex-item {
