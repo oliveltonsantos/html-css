@@ -7,6 +7,12 @@ html, body {
     background: #7159c1;
 }
 
+.container {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 20vh 70vh 10vh;
+}
+
 header {
     background: yellow;
     height: 100px;
@@ -25,8 +31,4 @@ aside {
 footer {
     background: red;
     height: 100px;
-
-.container {
-    display: grid;
-    grid
 }
