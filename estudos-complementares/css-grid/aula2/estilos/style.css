@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #7159c1;
+}
+
+header {
+    background: yellow;
+    height: 100px;
+}
+
+main {
+    background: blue;
+    height: 100px;
+}
+
+aside {
+    background: green;
+    height: 100px;
+}
+
+footer {
+    background: red;
+    height: 100px;
+
+.container {
+    display: grid;
+    grid
+}
