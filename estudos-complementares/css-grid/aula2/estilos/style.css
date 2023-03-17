@@ -11,24 +11,27 @@ html, body {
     display: grid;
     grid-template-columns: 3fr 1fr;
     grid-template-rows: 20vh 70vh 10vh;
+    grid-template-areas: "h h"
+                          "m a"
+                          "f f"  
 }
 
 header {
     background: yellow;
-    height: 100px;
+    grid-area: h;
 }
 
 main {
     background: blue;
-    height: 100px;
+    grid-area: m;
 }
 
 aside {
     background: green;
-    height: 100px;
+    grid-area: a;
 }
 
 footer {
     background: red;
-    height: 100px;
+    grid-area: f;
 }
