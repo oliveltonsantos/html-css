@@ -151,6 +151,8 @@ body {
     margin: 0 auto;
 }
 
+/* Media queries*/
+
 @media (max-width: 600px) {
     .conteudo-principal {
         display: flex;
