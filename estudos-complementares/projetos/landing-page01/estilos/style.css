@@ -150,3 +150,10 @@ body {
     display: block; /*utiliza todo o espaço dentro do elemento*/
     margin: 0 auto;
 }
+
+@media (max-width: 600px) {
+    .conteudo-principal {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
