@@ -105,7 +105,48 @@ body {
     color: var(--cor-texto3);
 }
 
+.conteudo-principal-escrito-botao:hover {
+    background-color: rgba(236, 214, 196, 0.53);
+}
+
 .conteudo-principal-imagem {
     height: 430px;
 }
 
+.conteudo-secundario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 48px;
+}
+
+.conteudo-secundario-titulo {
+    border-top: 0.4px solid var(--cor-texto1);  
+    padding-top: 48px;
+    font-family: var(--fonte-1);
+    font-weight: 400;
+    font-size: 24px;
+    color: var(--cor-texto1);
+    padding-bottom: 16px; 
+}
+
+.conteudo-secundario-paragrafo {
+    font-family: var(--fonte-2);
+    font-weight: 300;
+    font-size: 18px;
+    color: var(--cor-texto2);
+}
+
+/* Rodapé */
+
+.rodape {
+    padding: 32px;
+    border-top: 0.4px solid var(--cor-texto1); 
+}
+
+.rodape-imagem {
+    height: 48px;
+    display: block; /*utiliza todo o espaço dentro do elemento*/
+    margin: 0 auto;
+}
