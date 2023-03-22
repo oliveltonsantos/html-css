@@ -1,5 +1,29 @@
 @charset "UTF-8";
 
+/* 
+
+Aula: https://youtu.be/rg7Fvvl3taU
+
+Tempo:
+
+00:00 - Introduction
+01:01 - How we're approaching this
+02:01 - What we are working on
+02:39 - What we are starting with
+03:08 - Declaring display grid
+03:59 - The gap property
+04:47 - Use your grid inspector
+06:06 - How many columns do you need
+06:59 - You probably don't need to declare rows
+12:48 - Spanning columns
+15:09 - Placing things in specific places on your grid
+17:52 - Working with line numbers
+24:56 - Working with media queries
+28:21 - grid-template-areas
+35:38 - auto-columns and rows
+
+*/
+
 /* Fontes */
 
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&display=swap');
@@ -155,7 +179,13 @@
   .testimonial-grid {
     display: grid;
     gap: 1.5rem;
+    grid-auto-columns: 1fr;
     grid-template-areas: ;
+    'one'
+    'two'
+    'three'
+    'four'
+    'five';
 
     padding-block: 2rem;
     width: min(95%, 70rem);
@@ -169,8 +199,44 @@
     box-shadow: 2.5rem 3.75rem 3rem -3rem hsl(var(--clr-secondary-400) / 0.25);
   }
 
-  @media (min-width: 50em) {
+  .testimonial:nth-child(1) {
+    grid-area: one;
+  }
 
+  .testimonial:nth-child(2) {
+    grid-area: two;
+  }
+
+  .testimonial:nth-child(3) {
+    grid-area: three;
+  }
+
+  .testimonial:nth-child(4) {
+    grid-area: four;
+  }
+
+  .testimonial:nth-child(5) {
+    grid-area: five;
+  }
+
+  @media (min-width: 30em) {
+    .testimonial-grid {
+        grid-template-areas: 
+        'one one'
+        'two five'
+        'three five'
+        'four four'
+        ;
+    }
+  }
+
+  @media (min-width: 50em) {
+    .testimonial-grid {
+        grid-template-areas: 
+        'one one two five'
+        'three four four five'
+        ;
+    }
   }
 
   .testimonial.quote {
