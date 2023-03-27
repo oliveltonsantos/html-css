@@ -1,5 +1,21 @@
 @charset "UTF-8";
 
+/* 
+
+Aula: https://youtu.be/CHiF_i4wbMA
+
+Tempo: 
+
+0:00 - Introdução
+0:45 - display: block;
+3:06 - display: inline-block; 
+5:41 - float
+9:44 - clear
+11:18 - pseudo-elementos after
+13:13 - criando um grid de 3 colunas
+
+*/
+
 * {
     margin: 0;
     padding: 0;
