@@ -21,3 +21,19 @@ h2,
 h3 {
     margin: 0 0 .75em 0;
 }
+
+/* fifth example */
+
+.banner {
+    height: 400px;
+    max-width: 700px;
+    margin: 40px auto 40px auto;
+    background-color: #2a2a2a;
+    display: flex;
+  }
+  
+  .center-me {
+    color: #FFF;
+    font-size: 50px;
+    margin: auto;
+  }
