@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+/* Aula: https://youtu.be/YqY5D0rnkps */
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: lightgray;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+
+    display: flex;
+    flex-direction: column;
+
+    width: 100vw;
+    height: 100vh;
+}
+
+header {
+    background-color: #f8d117;
+
+    padding: 40px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header > h1 {
+    margin-left: 50px;
+}
+
+main {
+    background-color: white;
+    flex-grow: 1;
+}
+
+footer {
+    background-color: #1194f6;
+
+    padding: 20px;
+}
