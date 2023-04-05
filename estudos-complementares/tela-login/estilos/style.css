@@ -47,5 +47,21 @@ body {
     margin-bottom: 30px;
 }
 
+.login .box-user label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px 0;
+    color: #fff;
+    font-size: 16px;
+    pointer-events: none;
+    transition: .5s;
+}
 
+.login .box-user input:focus~label {
+    top: -20px;
+    left: 0;
+    color: #03e9f4;
+    font-size: 17px;
+}
 
