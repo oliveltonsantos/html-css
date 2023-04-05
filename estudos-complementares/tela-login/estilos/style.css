@@ -136,7 +136,7 @@ body {
     height: 100%;
     background: linear-gradient(180deg, transparent, #03e9f4);
     animation: btn2 1s linear infinite;
-    animation-delay: .10s;
+    animation-delay: .20s;
 }
 
 @keyframes btn2 {
