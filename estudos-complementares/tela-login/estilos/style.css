@@ -9,7 +9,43 @@
     font-family: sans-serif;
 }
 
+body {
+    min-height: 100vh;
+    background: #172031;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.login {
+    background: rgba(0, 0, 0, .5);
+    border-radius: 10px;
+    width: 400px;
+    padding: 40px;
+}
+
+.login h2 {
+    margin-bottom: 30px;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+}
+
+.login .box-user {
+    position: relative;
+}
+
+.login .box-user input {
+    width: 100%;
+    padding: 10px 0;
+    outline: none;
+    border: 0;
+    background: transparent;
+    border-bottom: 1px solid #fff;
+    color: #fff;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
 
 
 
