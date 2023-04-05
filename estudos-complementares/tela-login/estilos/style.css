@@ -189,4 +189,10 @@ body {
     }
 }
 
+/* Responsividade */
 
+@media (max-width: 405px) {
+    .login {
+        width: 90%;
+    }
+}
