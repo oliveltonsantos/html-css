@@ -64,6 +64,10 @@ header .navegation li a {
     font-size: 19px;
     margin-left: 100px;
  }
+ 
+ header .navegation a:hover {
+    color: #e51e2a;
+ }
 
 .container {
     position: relative;
