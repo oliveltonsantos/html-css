@@ -22,6 +22,7 @@ body {
     align-items: center;
     justify-content: center;
     margin: auto;
+    overflow: hidden;
 }
 
 .card {
@@ -81,4 +82,41 @@ body {
 
 .card-bottom p {
     text-align: left;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    width: 100%;
+    border: 2px solid #0088d2;
+    margin-top: 15px;
+    border-radius: 10px;
+    font-size: 16px;
+    color: #0088d2;
+    text-decoration: none;
+    transition: all 0.5s;
+}
+
+.btn:hover {
+    border: 2px solid #0088d2;
+    background: #0088d2;
+    color: #fff;
+}
+
+#tenis-1,
+#tenis-2 {
+    width: 450px;
+    position: absolute;
+    top: 190px;
+    transition: 1s;
+}
+
+#tenis-1 {
+    left: -50px;
+}
+
+#tenis-2 {
+    left: -650px;
 }
