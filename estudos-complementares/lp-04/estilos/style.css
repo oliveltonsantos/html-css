@@ -107,18 +107,14 @@ main section {
     gap: 10px;
 }
 
-.main-text .content span {
+.main-text .content  span {
     width: 40px;
     height: 40px;
     border-radius: 50%;
     cursor: pointer;
     box-shadow: 1px 1px #888;
-    transition: all 0.5s;
 }
 
-.main-text .content span:hover {
-    opacity: .80;
-}
 
 
 
