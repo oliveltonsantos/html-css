@@ -35,8 +35,8 @@
                     <h5>Escolha sua cor favorita:</h5>
                 </div>
                <div class="content">
-                    <span id="green"></span>
-                    <span id="pink"></span>
+                    <span id="green" onclick="imgSlider('imagens/green.png')"></span>
+                    <span id="pink" onclick="imgSlider('imagens/pink.png')"></span>
                     <span id="blue"></span>
                     <span id="black"></span>
                     <span id="white"></span>
@@ -48,5 +48,11 @@
             </div>
         </section>
     </main>
+
+    <script type="text/javascript">
+        function imgSlider(e){
+           document.querySelector('#phone').src = e;
+        }
+    </script>
 </body>
 </html>
