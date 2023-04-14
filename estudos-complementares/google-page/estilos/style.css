@@ -37,5 +37,32 @@ section header ul {
     gap: 20px;
 }
 
+section header ul a {
+    font-size: 13px;
+    color: #111;
+}
+
+section header ul a:hover {
+    text-decoration: underline;
+}
+
+section header ul button {
+    padding: 8px 14px;
+    border-radius: 3px;
+    background: #1a73e8;
+    border: 0;
+    outline: none;
+    font-size: 14px;
+    color: #fff;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+section header ul button:hover {
+    background: #3284ee;
+}
+
+
 
 
