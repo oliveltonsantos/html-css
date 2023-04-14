@@ -63,6 +63,32 @@ section header ul button:hover {
     background: #3284ee;
 }
 
+/* Main */
 
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 580px;
+    margin-bottom: 200px;
+}
+
+.main .searchBox {
+    position: relative;
+    width: 100%;
+    margin-top: 20px;
+}
+
+main .searchBox .search {
+    width: 100%;
+    padding: 13px;
+    padding-left: 45px;
+    padding-right: 60px;
+    border-radius: 30px;
+    outline: none;
+    font-size: 16px;
+    border: 1px solid #ccc;
+}
 
 
