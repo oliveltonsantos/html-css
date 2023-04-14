@@ -1,0 +1,10 @@
+@charset "UTF-8";
+
+/* Aula: https://youtu.be/t_z21hRqX6s */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
