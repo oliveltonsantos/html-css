@@ -139,6 +139,45 @@ section header ul button:hover {
     text-decoration: underline;
 }
 
+/* Footer */
+
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: #f2f2f2;
+    width: 100%;
+    color: #555;
+}
+
+footer .line {
+    padding: 15px 25px;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+footer .line_top {
+    font-size: 14px;
+}
+
+footer .line.line2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .line.line2 ul {
+    display: flex;
+}
+
+footer .line.line2 ul li a {
+    font-size: 14px;
+    color: #5f6368;
+    margin-right: 25px;
+}
+
+footer .line.line2 ul li a:hover {
+    text-decoration: underline;
+}
+
 
 
 
