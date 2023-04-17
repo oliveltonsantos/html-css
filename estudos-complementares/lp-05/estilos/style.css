@@ -31,6 +31,7 @@ body {
     width: 100%;
     background: var(--white);
     transition: all 0.5s;
+    position: fixed; /* mantém a posição da página fixa, ou seja, no tamanho total da tela*/
 }
 
 .navigation .logo {
@@ -68,4 +69,99 @@ body {
 .navigation i:hover {
     color: #d63a25;
 }
+
+.menu {
+    cursor: pointer;
+    display: none;
+}
+
+.menu .bar {
+    display: block;
+    width: 28px;
+    height: 3px;
+    border-radius: 3px;
+    background: var(--dark);
+    margin: 5px auto;
+    transition: all 0.3s;
+}
+
+.menu .bar:nth-child(1),
+.menu .bar:nth-child(3) {
+    background: var(--red);
+}
+
+.home{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 10%;
+}
+
+.home-text{
+    max-width: 37rem;
+}
+
+.home-text .text-h4{
+    font-size: 1.5rem;
+    color: var(--red);
+    margin-bottom: 1rem;
+}
+
+.home-text .text-h1{
+    font-size: 4rem;
+    margin-bottom: 1rem;
+    line-height: 4rem;
+}
+
+.home-text p{
+    margin-bottom: 4rem;
+}
+
+.home-btn {
+    padding: 15px 45px;
+    background: var(--red);
+    color: var(--white);
+    border-radius: 10px;
+    font-weight: 700;
+    transition: all 0.5s;
+}
+
+.home-btn:hover {
+    background: #fc4c35;
+}
+
+.home-img img {
+    width: 100%;
+}
+
+/* Responsividade */
+
+@media (max-width: 785px) {
+    .navigation {
+        padding: 18px 20px;
+    }
+    .menu {
+        display: block;
+    }
+    .nav-menu {
+        position: fixed;
+        right: -100%;
+        top: 70px;
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+        background: var(--white);
+        gap: 10px;
+        transition: all 0.3s;
+    }
+    .nav-item {
+        margin: 16px 0;
+    }
+}
+
+
+
+
 
