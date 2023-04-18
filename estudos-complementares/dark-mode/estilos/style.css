@@ -92,7 +92,15 @@ header {
     font-size: 20px;
 }
 
+/* Dark mode */
 
+.header.header.dark {
+    background: #202026;
+}
+
+.header.dark .icon::before{
+    content: "\f185";
+}
 
 
 
