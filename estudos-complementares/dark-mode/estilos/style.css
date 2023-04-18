@@ -80,7 +80,19 @@ header {
     top: 29%;
     right: 39%;
     cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
+.icon::before {
+    content: "\f186";
+    font-family: fontAwesome;
+    color: #0088d2;
+    font-size: 20px;
+}
+
+
 
 
 
