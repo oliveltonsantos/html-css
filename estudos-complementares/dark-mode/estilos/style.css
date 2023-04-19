@@ -1,5 +1,7 @@
 @charset "UTF-8";
 
+/* Aula: https://youtu.be/25YyOr_oU7s */
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 * {
@@ -18,6 +20,7 @@ header {
     min-height: 100vh;
     background-color: #dbefff;
     overflow: hidden;
+    transition: background 0.5s;
 }
 
 .container {
@@ -29,6 +32,7 @@ header {
     flex-direction: column;
     background-color: aliceblue;
     padding: 20px 15px;
+    transition: background 0.5s;
 }
 
 .img img {
@@ -71,6 +75,11 @@ header {
     margin-top: 15px;
 }
 
+.btn:hover {
+    background: #04a1f5;
+    color: #fff;
+}
+
 .icon {
     width: 30px;
     height: 30px;
@@ -100,6 +109,14 @@ header {
 
 .header.dark .icon::before{
     content: "\f185";
+}
+
+.header.dark .container {
+    background: #323840;
+}
+
+.header.dark .text p {
+    color: #fff;
 }
 
 
