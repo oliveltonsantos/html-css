@@ -67,7 +67,7 @@ a {
     .hamburguer.active .bar:nth-child(2){
         opacity: 0;
     }
-    .hamburguer.active .bar:nth-child(2){
+    .hamburguer.active .bar:nth-child(1){
         transform: translateY(8px) rotate(45deg);
     }
     .hamburguer.active .bar:nth-child(3){
