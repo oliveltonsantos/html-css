@@ -1,5 +1,7 @@
 @charset "UTF-8";
 
+/* Aula: https://youtu.be/Y2Q6NPn7plI */
+
 * {
     margin: 0;
     padding: 0;
@@ -27,6 +29,14 @@ body {
     box-shadow: 0px 3px 5px 3px #000000;
     transition: 0.5s;
 }
+
+/* Relacionado ao JavaScript */
+
+.search.ativo {
+    width: 360px;
+}
+
+/* ----------------------------------- */
 
 .search .icon {
     position: absolute;
@@ -71,5 +81,49 @@ body {
     align-items: center;
     justify-content: center;
 }
+
+.search .input input {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    font-size: 17px;
+    background-color: #f1f1f1;
+}
+
+.delete {
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.delete::before {
+    position: absolute;
+    content: '';
+    width: 1px;
+    height: 20px;
+    background: #999;
+    transform: rotate(45deg);
+}
+
+.delete::after {
+    position: absolute;
+    content: '';
+    width: 1px;
+    height: 20px;
+    background: #999;
+    transform: rotate(315deg);
+}
+
+
 
 
