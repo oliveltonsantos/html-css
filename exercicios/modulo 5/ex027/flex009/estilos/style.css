@@ -1,16 +1,13 @@
 div.container {
     background-color: aqua;
-
     display: flex;
-    flex-flow: row wrap;
-    align-content: space-around;
-    height: 400px;
+    flex-flow: row nowrap;
 }
 
 div.item {
     background-color: blueviolet;
     border: 1px solid black;
     text-align: center;
-    padding: 40px;
+    flex-basis: 150px;
 }
 
