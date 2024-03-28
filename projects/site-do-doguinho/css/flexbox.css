@@ -1,0 +1,47 @@
+/* ------------- HEADER ------------- */  
+
+.header__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    row-gap: 2rem;
+}
+
+.navigation {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+
+/* ------------- ABOUT ------------- */  
+
+.about__container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.about__buttons {
+    display: flex;
+    justify-content: center;
+    column-gap: 2rem;
+}
+
+
+
+
+
+
+
+
+/* ------------- DESKTOP ------------- */  
+
+@media (min-width: 720px) {
+    .header__container {
+        justify-content: space-between;
+    }
+    .about__container {
+        flex-wrap: nowrap;
+    }
+}
