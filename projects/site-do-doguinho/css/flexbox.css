@@ -14,6 +14,7 @@
     justify-content: center;
 }
 
+
 /* ------------- ABOUT ------------- */  
 
 .about__container {
@@ -29,10 +30,41 @@
 }
 
 
+/* ------------- PHOTOS ------------- */ 
+
+.photos__container {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 2rem;
+    justify-content: space-between;
+}
+
+.photos__item--primary {
+    order: -1;
+}
 
 
+/* ------------- CONTACT ------------- */
+
+.contact__container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-evenly;
+}
 
 
+/* ------------- SERVICES ------------- */ 
+
+.services__container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.services__item {
+    flex-basis: 250px;
+}
 
 
 /* ------------- DESKTOP ------------- */  
@@ -45,3 +77,6 @@
         flex-wrap: nowrap;
     }
 }
+
+
+
