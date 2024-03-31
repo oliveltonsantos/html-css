@@ -178,6 +178,7 @@ img {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: flex-end;
 }
 
 .plano {
@@ -246,9 +247,27 @@ img {
     border: 2px solid var(--clr-green-light);
 }
 
+.plano:last-child {
+    background-color: var(--clr-green-light);
+}
 
+.plano:last-child, .plano:last-child .plano__btn-comprar {
+    border: 2px solid var(--clr-pink-dark);
+}
 
+.plano:last-child .plano-lista__item::before, .plano:last-child .plano__divisor {
+    background: var(--clr-pink-dark);
+}
 
+@media (max-width: 800px) {
+    .plano:nth-child(3) {
+        order: -2;
+    }
+
+    .plano:nth-child(2) {
+        order: -1;
+    }
+}
 
 
 
