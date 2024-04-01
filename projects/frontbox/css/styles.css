@@ -400,21 +400,34 @@ img {
     padding: 15px;
 }
 
-/**********************************/
-/* 9. Footer
+@media (max-width: 800px) {
+    .newsletter-c {
+        padding: 10px;
+    }
+
+    .newsletter-form__input {
+        border-radius: 10px 10px 0px 0px;
+    }
+
+    .newsletter-form__submit {
+        border-radius: 0px 0px 10px 10px;
+    }
+
+    /**********************************/
+    /* 9. Footer
 /**********************************/
 
-.footer {
-    background-color: var(--clr-pink-light);
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    padding: 55px calc((100% - 960px) / 2);
-}
+    .footer {
+        background-color: var(--clr-pink-light);
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        padding: 55px calc((100% - 960px) / 2);
+    }
 
-.footer__copyright,
-.footer__logo {
-    padding-left: 10px;
-    padding-right: 10px;
-}
+    .footer__copyright,
+    .footer__logo {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
