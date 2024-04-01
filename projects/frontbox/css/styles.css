@@ -107,6 +107,11 @@ img {
     padding: 20px 10px;
 }
 
+.nav__link:hover {
+    font-weight: bold;
+    transition: 0.5s;
+}
+
 /**********************************/
 /* 3. Header
 /**********************************/
@@ -334,6 +339,10 @@ img {
     .vantagem {
         max-width: 220px;
     }
+
+    .vantagens {
+        justify-content: center;
+    }
 }
 
 /**********************************/
@@ -383,6 +392,7 @@ img {
     padding: 10px;
     margin: 0;
     border-radius: 10px 0px 0px 10px;
+    outline: none;
 }
 
 .newsletter-form__submit {
@@ -405,6 +415,12 @@ img {
         padding: 10px;
     }
 
+    .newsletter-info__titulo,
+    .newsletter-info__descricao {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
     .newsletter-form__input {
         border-radius: 10px 10px 0px 0px;
     }
@@ -413,21 +429,38 @@ img {
         border-radius: 0px 0px 10px 10px;
     }
 
-    /**********************************/
-    /* 9. Footer
+}
+
+/**********************************/
+/* 9. Footer
 /**********************************/
 
+.footer {
+    background-color: var(--clr-pink-light);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 55px calc((100% - 960px) / 2);
+}
+
+.footer .footer__copyright a {
+    text-decoration: underline
+}
+
+.footer__copyright,
+.footer__logo {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+@media (max-width: 800px) {
     .footer {
-        background-color: var(--clr-pink-light);
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        align-items: center;
-        padding: 55px calc((100% - 960px) / 2);
+        justify-content: center;
     }
 
-    .footer__copyright,
-    .footer__logo {
-        padding-left: 10px;
-        padding-right: 10px;
+    .footer__copyright {
+        text-align: center;
+        margin-bottom: 10px;
     }
+}
