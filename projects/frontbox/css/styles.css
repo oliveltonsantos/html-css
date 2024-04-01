@@ -112,6 +112,19 @@ img {
     transition: 0.5s;
 }
 
+@media (max-width: 800px) {
+    .menu__logo {
+        margin: 0 auto;
+    }
+
+    .nav__list {
+        margin: 10px 0px;
+        row-gap: 10px;
+        justify-content: center;
+    }
+
+}
+
 /**********************************/
 /* 3. Header
 /**********************************/
