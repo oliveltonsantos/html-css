@@ -109,12 +109,14 @@ img {
 
 .nav__link:hover {
     font-weight: bold;
+    text-decoration: underline;
     transition: 0.5s;
 }
 
 @media (max-width: 800px) {
     .menu__logo {
         margin: 0 auto;
+        padding: 5px;
     }
 
     .nav__list {
@@ -474,8 +476,6 @@ img {
 .footer .footer__copyright a:hover {
     color: var(--clr-pink-dark);
 }
-
-
 
 .footer__copyright,
 .footer__logo {
